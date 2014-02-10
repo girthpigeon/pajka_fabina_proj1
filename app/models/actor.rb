@@ -1,4 +1,3 @@
 class Actor < ActiveRecord::Base
-  attr_accessible :age, :movie
-  has_many :movies
+  attr_accessible :age, :movie, :name
 end

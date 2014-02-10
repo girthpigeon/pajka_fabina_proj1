@@ -4,6 +4,7 @@
   <tr>
     <th>Age</th>
     <th>Movie</th>
+    <th>Name</th>
     <th></th>
     <th></th>
     <th></th>
@@ -13,6 +14,7 @@
   <tr>
     <td><%= actor.age %></td>
     <td><%= actor.movie %></td>
+    <td><%= actor.name %></td>
     <td><%= link_to 'Show', actor %></td>
     <td><%= link_to 'Edit', edit_actor_path(actor) %></td>
     <td><%= link_to 'Destroy', actor, confirm: 'Are you sure?', method: :delete %></td>

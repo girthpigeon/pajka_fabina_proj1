@@ -3,7 +3,9 @@
 one:
   age: 1
   movie: MyString
+  name: MyString
 
 two:
   age: 1
   movie: MyString
+  name: MyString

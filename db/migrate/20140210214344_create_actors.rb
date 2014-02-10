@@ -3,6 +3,7 @@ class CreateActors < ActiveRecord::Migration
     create_table :actors do |t|
       t.integer :age
       t.string :movie
+      t.string :name
 
       t.timestamps
     end
