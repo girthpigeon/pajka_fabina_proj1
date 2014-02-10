@@ -1,8 +1,6 @@
 PajkaFabinaProj1::Application.routes.draw do
   resources :directors
 
-  resources :actors
-
   resources :movies
 
   # The priority is based upon order of creation:
