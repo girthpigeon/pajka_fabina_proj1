@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Age:</b>
+  <%= @director.age %>
+</p>
+
+<p>
+  <b>Movie:</b>
+  <%= @director.movie %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @director.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_director_path(@director) %> |
+<%= link_to 'Back', directors_path %>
